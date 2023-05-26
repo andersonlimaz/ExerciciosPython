@@ -1,0 +1,38 @@
+todos esse espaços são armazenamos na memoria, inclusive o espaça, totalizando 21 espaços. 
+frase = 'Curso em video python'
+
+------------Tecnica de Fatiamento------------ 
+
+ex: frase[9] - vai pegar o caractere 9 lembrando que começa 0 
+ex: frase[9:13] - vai pegar caractere 9 até o 12 porem o 13 ele exclui, caso queira pega caracte 13 deve colocar [9:14]
+ex: frase[9:21:2] vai começa no 9 vou parar no 21 pulando de 2 em 2 
+ex: frase[:5] quando não define inicio é considerado "0", então vai do caracte 0 até 4 nesse ex. 
+ex: frase[15:] quero do 15 até o final.
+ex: frase[9::3] inicia em 9 vai até o fim, pulando de 3 em 3 
+
+------------Tecnica Análise------------
+
+ex: len(frase) - qual o comprimento da frase
+ex: frase.count('o') - conta quantas vezes tem a letra o.
+ex: frase.count('o',0,13) - vai do 0 até o 12, ele vai retornar 1, pois entre o caratece 0 ao 13 tem uma letra o
+ex: frase.find('deo') - retorna posição que foi encontrada o 'deo', nesse ex 11
+ex: frase.find('android') ele vai retorna -1 pois o valor não existe. 
+ex: 'curso' in frase - verifica se existe a palavra 'curso' em frase, retorna booleana true e false
+
+------------Tecnica de Transformação------------
+
+ex: frase.replace('Python', 'android') - ele vai procurar 'Python' e substituiria por 'android'
+ex: frase.upper() - o que ja é maiusculo ele mantem, o que esta em minusculo transforma frase em MAIUSCULA 
+ex: frase.lower() - mesma coisa do de cima so que para miniscula. 
+ex: frase.capitaliza() - coloca todos caracteres em minusculo so a primeira em MAIUSCULA
+ex: frase.title() - todos os inicios de palavras ficam em maiusculo. 
+ex: frase.strip() - remove todos espaços inuteis tanto do inicio quanto do fim. 
+ex: frase.rstrip() - exclui espaços só da direita
+ex: frase.lstrip() - exclui espeços só da esquerda
+
+------------Tecnica de Divisão------------
+
+ex: frase.split() gera uma lista em todas palavras em uma cadeia de caracteres. 
+    fazendo assim uma nova reclassificação dividindo em palavras em uma lista, CURSO=0 EM=1 VIDEO=2 PYTHON=3
+ex: '-'.join(frase) - vai juntar todos usando o separador '-'
+

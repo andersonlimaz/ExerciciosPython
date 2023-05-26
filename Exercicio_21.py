@@ -4,5 +4,5 @@ import time
 pygame.init()
 pygame.mixer.music.load('Musica.mp3')
 pygame.mixer.music.play()
-pygame.time.delay(5000)
+pygame.time.delay(50000)
 pygame.event.wait()
