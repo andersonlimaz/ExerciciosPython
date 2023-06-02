@@ -1,0 +1,26 @@
+------------------- Cores no Terminal -----------------
+Padrão ANSI para cores, começa contra barra \033[style: texto: back m
+style   
+0 none
+4 underline _ 
+7 Negative 
+-------------------------------------
+Text cor do texto
+30 branco
+31 vermelho
+32 verde
+33 amarelo
+34 azul
+35 roxo
+36 azul claro
+37 cinza
+--------------------------------------
+back cor atras 
+40 branco
+41 vermelho
+42 verde
+43 amarelo
+44 azul
+45 roxo
+46 azul claro
+47 cinza
