@@ -1,0 +1,32 @@
+------------Condições Aninhadas----------------
+------------Condições Aninhadas----------------
+if = se 
+elif = se senão, repete quantas vezes for necessario. 
+else = senão, pode usar ou nenhuma ou apenas uma vez. 
+--------------- Pratica ----------------
+ex condição simples
+
+nome = str(input('Qual é seu nome? '))
+if nome == 'Anderson':
+    print('Que nome bonito! ')
+print('Tenha um bom dia, {}!'.format(nome))
+
+ex condição Composta
+
+nome = str(input('Qual é seu nome? '))
+if nome == 'Anderson'
+    print('Que nome bonito! ')
+else:
+    print('seu nome é bem normal.')
+print('Tenha um bom dia, {}!'.format(nome))
+
+ex condição composta com elif
+
+nome = str(input('Qual é seu nome? '))
+if nome == 'Anderson'
+    print('Que nome bonito! ')
+elif nome =='Pedro' or nome == 'Maria' or nome == 'Paulo'
+    print('Seu nome é bem popular no Brasil')
+else:
+    print('seu nome é bem normal.')
+print('Tenha um bom dia, {}!'.format(nome))
