@@ -1,0 +1,38 @@
+--------------estrutura de de repetição for --------------
+laço c no intervalo(1,10)
+    passo 
+pega
+---------------------
+for c in range(1,10):
+    passo
+pega
+---------------------
+
+laço c no intevalo(0,3)
+    passo 
+    pula
+passo 
+pega
+----------------------
+for c in range(0,3):
+    passo
+    pula
+passo 
+pega
+
+-------------------------
+laço c no invalo(0,3)
+    se moeda
+        pega
+    passo 
+    pula
+passo 
+pula
+-------------------------
+for c in range(0,3):
+    if moeda:
+        pega
+    passo
+    pula
+passo
+pula
