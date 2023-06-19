@@ -1,1 +1,26 @@
 ---------- Estrutura de repetição while -------------
+ enquanto não maça 
+    passo
+pega
+-----python---
+while not maça:
+    passo
+pega
+----------
+enquanto não maça 
+    se chao
+        passo
+    se buraco
+        pula
+    se moeda
+        paga
+pega maça
+---- python---
+while not maça:
+    if chao:
+        passo
+    if buraco: 
+        pula 
+    if moeda:
+        pega
+pega
