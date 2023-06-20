@@ -5,14 +5,20 @@
 from random import randint
 from time import sleep
 computador = randint(0, 10) # Sorteia o numero
-print('-===' * 10)
-print('Vou pensar em um numero entre 0 e 5, tente adivinhar...')
-print('-===' * 10)
-jogador = int(input('Em que número eu pensei ? '))
-print('PROCESSANDO...')
-sleep(3)
-if jogador == computador:
-    print('Parabéns você acertou, o numero que eu pensei foi o {}'.format(computador))
-else:
-    jogador != computador
-    print('GANHEI, Eu pensei no número {} e você digitou {}'.format(computador, jogador))
+print('''Sou seu computador...
+Acabei de pensar em um número entre 0 e 10.
+Será que você consegue adivinhar qual foi?''')#print informações do começo
+acertou = False # declarada como falsa
+palpites = 0 #contabilizar o numero iniciando por zero
+while not acertou: # começa negando o palpite
+    jogador = int(input('Qual é seu palpite: '))#ela vai perguntar o palpite enquanto você não acertar
+    palpites += 1 #soma a palpite
+    if jogador == computador: #quando jogador que é palpite for igual ao que o computador random colocou,  
+        acertou = True #se caso for verdade ele sai do while. 
+    else:
+        if jogador < computador: # numero do jogador for menor que computador imprima "MAIS"
+            print('Mais... tente mais uma vez.')
+        elif jogador > computador:# número do jogador for maior que computador imprima "MENOS"
+            print('Menos... Tente mais uma vez.')
+print('Acertou com {} tentativas, Parabéns'.format(palpites))
+
