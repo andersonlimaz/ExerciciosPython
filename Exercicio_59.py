@@ -5,3 +5,6 @@
 #[4] NOVOS NÚMEROS
 #[5] SAIR DO PROGRAMA
 # SEU PROGRAMA DEVERÁ REALIZAR A OPERAÇÃO SOLICITADA EM CADA CASO. 
+valor1 = (int(input('Digite o primeiro valor:')))
+valor2 = (int(input('Digite o segundo valor:')))
+
