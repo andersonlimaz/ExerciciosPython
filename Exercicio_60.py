@@ -15,5 +15,11 @@ while c > 0:
 
 print('{}'.format(f))
 
-#fazer com for 
+#fazendo o mesmo programa com for
+n = int(input("Digite um número para calcular o seu fatorial: "))
+fact = 1
 
+for i in range(1, n+1):
+    fact *= i
+
+print(f"O fatorial de {n} é {fact}.")
