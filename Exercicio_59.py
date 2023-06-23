@@ -8,7 +8,7 @@
 n1 = int(input('Primeiro valor: '))
 n2 = int(input('Segundo valor: '))
 opção = 0
-while opção != 5:
+while opção != 5:# enquanto for diferente de 5 roda o loop. 
     print(''' 
     [1] SOMAR
     [2] MULTIPLICAR

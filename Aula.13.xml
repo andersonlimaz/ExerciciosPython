@@ -36,3 +36,24 @@ for c in range(0,3):
     pula
 passo
 pula
+
+-----------------------------
+for (inicialização; condição; atualização) {
+    // bloco de código a ser repetido
+}
+Aqui está o que cada parte significa:
+
+Inicialização: É onde você define o valor inicial de uma variável de controle. Essa variável é normalmente usada para acompanhar o progresso das repetições. Por exemplo, você pode iniciar a variável "i" com o valor zero: int i = 0;.
+
+Condição: É uma expressão lógica que é verificada antes de cada repetição do bloco de código. Se a condição for verdadeira, o bloco de código é executado; caso contrário, o loop é encerrado. Geralmente, a condição envolve a comparação da variável de controle com um valor final. Por exemplo, i < 10; significa que o loop será executado enquanto o valor de "i" for menor que 10.
+
+Atualização: É onde você atualiza o valor da variável de controle após cada repetição do bloco de código. Isso geralmente envolve o incremento ou decremento do valor da variável. Por exemplo, i++ significa que o valor de "i" será incrementado em 1 a cada repetição.
+
+Quando o comando "for" é executado, o fluxo do programa segue essas etapas:
+
+A inicialização é executada antes da primeira repetição do bloco de código.
+A condição é verificada. Se for verdadeira, o bloco de código é executado. Caso contrário, o loop é encerrado.
+O bloco de código é executado.
+A atualização é aplicada.
+A condição é verificada novamente e o processo se repete até que a condição seja falsa.
+O comando "for" é amplamente utilizado para iterar sobre elementos de uma lista, percorrer intervalos numéricos ou realizar qualquer tarefa que exija repetição controlada. Ele oferece uma maneira eficiente de lidar com esses casos e simplifica a escrita do código.

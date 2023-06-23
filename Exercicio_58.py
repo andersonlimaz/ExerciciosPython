@@ -4,6 +4,26 @@
   
 from random import randint
 from time import sleep
+comp = randint(0, 10) 
+print(''' 
+Sou computador, pensei em um número de 0 e 10
+Em qual número eu pensei ??? ''')
+acertou = False
+while not acertou :# while not acertou:: Inicia um loop que continuará até que o jogador acerte o número.
+    jog = int(input('Qual o seu papite ?'))
+    palpite = palpite + 1
+    if jog == comp:
+        acertou = True
+    else:
+        if jog < comp :
+            print('tente novamente o número é MAIOR')
+        elif jog > comp:
+            print('tente novamente o número é MENOR')
+print('Acertou com {}tentativas, Parabéns'.format(palpite))
+
+#----------------------------------- 
+from random import randint
+from time import sleep
 computador = randint(0, 10) # Sorteia o numero
 print('''Sou seu computador...
 Acabei de pensar em um número entre 0 e 10.
