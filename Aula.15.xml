@@ -1,0 +1,25 @@
+----------------- Laços de repetição ---------- 
+enquanto verdadeiro 
+    se bloco
+        passo
+    se vazio 
+        pula
+    se moeda
+        pega
+    se troufeu 
+        pula 
+        interrompa
+pega
+
+----- em python ----------
+while True:
+    if bloco
+        passo
+    if vazio 
+        pula
+    if moeda
+        pega
+    if trofeu 
+        pula
+        break
+pega
