@@ -25,3 +25,11 @@
 #     print(f'Eu vou comer {lanche[cont]}')
 # print('comi para caramba')
 
+# a = (2, 5, 4)
+# b = (5,8,1,2)
+# c = a + b
+# print(c)
+
+#imprime dados diferentes
+pessoa = ('Anderson', 26, 'M', 99.88)
+print(pessoa)
