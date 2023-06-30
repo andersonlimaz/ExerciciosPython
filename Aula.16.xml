@@ -1,0 +1,27 @@
+--------- Tuplas ---------
+Tupla é um tipo de estrutura de dados do Python que tem como principal característica ser imutável. 
+Ou seja, ao criar uma tupla você não consegue alterar nenhum elemento que faça parte dela. 
+Normalmente, as tuplas são utilizadas para armazenar sequências de códigos que não serão modificadas.
+
+Variaveis simples- Armazenam só um dados
+Variaveis compostas - Armazenam mais de um dado, quantos você quiser. 
+
+Como acessar os elementos ? 
+
+São atravez de indices, [0,1,2,3]
+
+lanche = (hamburger, suco, pizza, pudim)
+
+print('lanche [2]') = pizza
+
+print('lache [0:2]') vai do elemento zero "hamburger" até antes do 2 que no caso é "suco"
+
+print(lanche [1:]) começa do 1 'suco' vai até o final mostrando todos. 
+
+print(lache [-1]) nesse caso seria o pudim, ex: -1 pudim, -2 pizza, -3 suco, -4 hamburger. 
+
+len( lanche) - mostra quantos elementos tem em lanche. 
+
+for c in lanche : # vai passar um elemento de cada vez, ele faz isso criando uma variavel 'c' que ele exibe um elemento por vez. até acabar os elemento.
+    print c 
+    
