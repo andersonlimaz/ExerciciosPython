@@ -1,0 +1,25 @@
+tuplas ()
+lista []
+lanche = ['hambuguer', 'suco', 'pizza', 'pudim']
+lanche[3] = 'picole' #nesse caso o 'pudim' é trocado pelo picole. 
+resultado --lanche = ['hambuguer', 'suco', 'pizza', 'picole']
+-----------------------------------------------------------------
+para adicionar elemento no final 
+lanche.append('cokke') ele cria elemento 4 
+ficando assim lanche = ['hambuguer', 'suco', 'pizza', 'pudim', 'cokke']
+------------------------------------------------------------------
+Para adicionar elemento qualquer posição 
+lanche.insert(0,'hotdog') vai adicionar antes de hambuguer, assim hambuguer vai passar a ser posição 1 
+----------------------------------------------------------------------
+Como apagar elementos, elemina elemento e reposiciona de forma automatica. 
+del lanche[3]
+lanche.pop(3), lanche.pop() elimina o ultimo elemento. 
+lanche.remove('pizza')
+----------------------------------------------------------------------
+valores = list(rang(4,11)) em ordem com range
+valores = [8, 2, 5, 4, 9, 3, 0]
+valores.sort() #coloca em ordem
+valores.sort(reverse=True) #inverte os valores
+-----------------------------------------------------------------
+valores = [8, 2, 5, 4, 9, 3, 0]
+len(valores)#tamanho. 
