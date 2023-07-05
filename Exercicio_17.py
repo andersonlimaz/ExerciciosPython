@@ -13,4 +13,4 @@ from math import hypot
 co = float(input("informe comprimento do cateto oposto: "))
 ca = float(input("informe comprimento do adjacente: "))
 hi = hypot(co, ca)
-print('A hipotenusa vai medir: {:.2f}'.format(hi))s
+print('A hipotenusa vai medir: {:.2f}'.format(hi))
