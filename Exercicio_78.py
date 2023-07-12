@@ -16,7 +16,7 @@ for c in range(0,5):
     if c == 0:
         maior = menor = listanum[c]
     else:
-        if listanum[c] > maior:
+        if listanum[c] > maior: 
             maior = listanum[c]
         if listanum[c] < menor:
             menor = listanum[c]
