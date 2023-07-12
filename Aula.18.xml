@@ -1,0 +1,6 @@
+dados = list() = uma lista armazena varios valores é multavel. 
+pessoas = [['Pedro', 25], ['Maria', 19], ['João', 32]] = compostas lista dentro de outra lista. 
+print(pessoas[0][0]) = resposta 'Pedro'
+print('pessoas'[1][1]) = resposta '19'
+print('pessoas'[2][0]) = resposta 'João'
+print('pessoas' [1]) = resposta 'maria', 19
