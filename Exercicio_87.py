@@ -1,4 +1,23 @@
 #aprimore o desafio anterior mostrando no final:
 #A - A soma de todos os valores pares
 #B - A soma dos valores da terceira coluna
-#C - O maior vlaor da segunda linha
+#C - O maior valor da segunda linha
+
+matriz = [[0, 0, 0],[0, 0, 0],[0, 0, 0]]
+spar = mai = scol = 0
+for l in range(0,3):
+    for c in range(0,3):
+        matriz[l][c] = int(input(f'Digite um valor para [{l}, {c}]: '))
+print('-*'*90)
+for l in range(0, 3):
+    for c in range(0,3):
+        print(f'[{matriz[l][c]:^5}]', end='')
+        if matriz[l][c] % 2 == 0:
+            spar += matriz[l][c]
+
+    print()
+print('-*'*90)
+print(f'A soma dos valores pares é {spar}')
+for l in range(0,3):
+    scol += matriz[l][2]
+print(f'A soma dos valores da terceira coluna é {scol}')
