@@ -1,0 +1,39 @@
+exemplo lista
+dados = list() #criando lista
+dados.append('Pedro')#acrescentando valor na lista
+dados.append(25)#acrescenta valor no indice [1]
+print(dados[0]) #imprimi Pedro
+
+--------------------- Dicionários ------------------------
+são semelhantes a lista e tuplas, so que dessa vez consigo ter indices literais, podendo personalizar. 
+tuplas ()
+lista []
+Dicionários {}
+para declarar Dicionários
+dados = dict()
+dados = {'nome':'pedro', 'idade':25}
+print(dados['nome'])     pedro
+print(dados['idade'])    25
+
+---- criando um novo elemento ---- 
+dados['sexo'] = 'M'
+---- removendo elemento ---- 
+del dados['idade']
+------------------------------
+fime ={'titulo':'star wars','ano':1977, 'diretor':'George Lucas' }
+
+print(filme.values()) # ele tras todos valores, star wars, 1977 e George Lucas 
+
+print(filme.keys()) # tras nome dos dicionarios, titulo, ano e diretor
+
+print(filme.items()) # ele tras os dois keys e valeus, 'titulo':'star wars','ano':1977, 'diretor':'George Lucas' 
+
+
+for k, v in filme.items():
+    print(f'O {k} é {v}')
+resultado: 
+    o titulo é star wars
+    o ano é 1997 
+    o diretor é George Lucas
+
+    
