@@ -1,0 +1,36 @@
+Função 
+Rotina-  coisa que voce faz constantemente. 
+tipo de funções. 
+len()
+print()
+floay()
+int()
+
+print('---------------------')
+print('Sistema de aluno')
+print('---------------------')
+print('Cadastro de Funcionários')
+print('---------------------')
+print('Erro do Sistema')
+print('---------------------')
+
+exemplo de função - coisas que se repete, exemplo uma linha 
+def mostraLinha():
+    print('---------------------')
+
+mostraLinha()
+print('Sistema de aluno')
+mostraLinha()
+print('Cadastro de Funcionários')
+mostraLinha()
+print('Erro do Sistema')
+mostraLinha()
+
+Ultizando Parametros:
+
+def mensa(msg): 
+    print('----------------------')
+    print(msg)
+    print('----------------------')
+
+mensagem('Sistemas de Alunos')
