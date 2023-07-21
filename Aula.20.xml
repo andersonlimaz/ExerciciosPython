@@ -1,0 +1,63 @@
+Função esta ligada a rotina, rotina é uma coisa que você faz constantemente. 
+
+tipos de função: 
+print()
+len()
+int()
+float()
+input()
+
+criamos a funcão, ou "def" definiçao de função 
+
+
+print('----------------------')
+print('     Sistemas De alunos   ')
+print('----------------------')
+print('----------------------')
+print('     Cadastro de Funcionario     ')
+print('----------------------')
+print('----------------------')
+print('     Erro do Sistema     ')
+print('----------------------')
+
+para criar uma rotina:
+
+def mostrarLinha():
+    print('----------------')
+mostrarLinha()
+print('     Sistemas De alunos   ')
+mostrarLinha()
+mostrarLinha()
+print('     Cadastro de Funcionario     ')
+mostrarLinha()
+mostrarLinha()
+print('     Erro do Sistema     ')
+mostrarLinha()
+
+-----------------------------------------
+ultilizando paramentros. 
+def mensagem(msg):
+    print('-------------------')
+    print(msg)
+    print('-------------------')
+
+mensagem(   Sistema de alunos  )
+---------------------------------------------
+empacotar paramentros
+
+def contador(*num):
+
+contador(5,7,3,1,4)
+contador(8,4,7)
+------------------------------- 
+usando def em lista 
+def dobra(ist):
+    pos= 0
+    while pos < len(ist):
+        ist[pos]*= 2
+        pos + = 1
+
+
+valores = [7, 2, 5, 0, 4]
+dobra(valores)
+print(valores)
