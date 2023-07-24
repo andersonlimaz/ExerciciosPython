@@ -32,3 +32,4 @@ for k, v in enumerate(time):
     for d in v.values():
         print(f' {str(d)} ')
 print('*'*30)
+
