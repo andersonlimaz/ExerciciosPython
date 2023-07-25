@@ -1,0 +1,60 @@
+Função Parte 2 
+Interactive help
+Docstring
+Argumentos Opcionais 
+Escopo de variaveis 
+Retorno de resultados
+
+-----------------------------------
+Interactive help - Ajuda interativa 
+-----------------------------------
+help() - ajuda interna 
+
+no terminal - digite help e logo após o comando que tem duvida que o python vai passar informações sobre comando e como usar. e todas suas funcionalidades  
+outra maneira help(print) o comando que estiver inserido dentro das () ele passa mais informações de como usar. 
+-----------------------------------
+Imprimindo a documentação intera 
+===================================
+print(input.__doc__)
+
+
+ =========
+ Docstring
+ =========
+explica o comando que você não sabe para que serve 
+voce tbm pode fazer usando '''' no inicio e fim assim colocando uma legenda no codigo 
+ def contador(i,f,p):
+    c = i
+    while c <= f:
+        print(f'{c}, end='..')
+        c += p
+    print('Fim!')
+
+contador(2,10,2)
+ 
+===========
+parametros
+Opcionais
+===========
+******def somar(a = 0, b = 0, c = 0):********
+        s = a + b + c
+        print(f'A soma vale {s}')
+
+somar(3, 2, 5)
+somar(8, 4)
+
+
+=========
+Escopo de
+variaveis
+========= 
+
+def teste():
+    x= 8
+    print(f'Na função teste, n vale {n}') 
+
+#Programa Principal 
+n = 2
+print(f'No programa principal, n vale {n}')
+teste()
+print(f'No programa principal, x vale {x}')
