@@ -58,3 +58,14 @@ n = 2
 print(f'No programa principal, n vale {n}')
 teste()
 print(f'No programa principal, x vale {x}')
+
+
+====================
+return 
+==================
+quando voce quer ter resultados personalizados. 
+def somar (a=0, b=0, c=0):
+    s = a + b + c   
+    return s
+
+resp = somar (3,2,5)
