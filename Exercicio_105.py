@@ -7,3 +7,9 @@
 #A situação (opcional)
 
 #Adicione também as docstrings da função. 
+def notas(*n, sit=False):
+
+    resp = 0
+#Programa Principal 
+resp = notas(5.5, 2.5, 9, 8.5)
+print(resp)
