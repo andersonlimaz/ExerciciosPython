@@ -1,0 +1,32 @@
+modularização 
+==================
+-ato de construir modulos, surgiu na decada de 60
+-sistemas ficando cada vez maiores
+-foco principal dividir um problema grande, aumentar a legibilidade, facitar a manutenção
+=========================================================================================
+parte teorica 
+def fatorial(n):
+    f=1
+    for c in range(1, n + 1):
+        f*=c
+    return f
+
+
+num =int(input('Digite um valor'))
+fat = fatorial(num)
+print(f'O fatorial de (num) é (fat)')
+===============
+vantagens 
+=================
+- organização do codigo 
+- facilidade na manutenção
+- ocultação de codigo detalhado
+- reutilização em outros projetos
+========================
+pacotes
+========================
+pastas que tem modulos. 
+dividindo por temas ex. numeros, datas, cores. 
+para criar um pacote, pasta criar uma pasta dentro do programa. 
+__init__.py - precisa ter em todos os modulos do python
+ 
