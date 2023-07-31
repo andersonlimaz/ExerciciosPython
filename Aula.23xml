@@ -1,0 +1,23 @@
+================
+Erro e exceções. 
+================
+erros - sao considerados falha sintaticas 
+exceções 
+ValueError. - digitou letras no lugar do numero 
+ZeroDivisionError - dividiu valor por zero. 
+TypoError - Erro de tipo 
+IndexError - quando relaciona um valor que não existe em listas. 
+ModuleNotForundError - Erro de modulo que voce colocou um que nao existe. 
+------------------------------------
+try: -tente fazer alguma coisa
+
+except: - se nao ocorre uma exceção, se eu tenta a coisa a cima e falha o que devo fazer.  
+------------------------------------
+try:
+    operação 
+except:
+    falhou
+else: 
+    deu certo
+finally:
+    certo/falha
