@@ -32,5 +32,7 @@ def leiafloat(msg):
 
 
 #PRINCIPAL
-n = leiaInt('Digite um número:')
-print(f'Você acabou de digitar o número {n}')
+n1 = leiaInt('Digite um Inteiro: ')
+n2 =leiafloat('Digite um real: ')
+print(f'O valor inteiro digitado foi {n1} e o real foi {n2}')
+
