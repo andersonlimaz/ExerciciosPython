@@ -15,7 +15,7 @@ except: - se nao ocorre uma exceção, se eu tenta a coisa a cima e falha o que 
 ------------------------------------
 try:
     operação 
-except:
+except: 
     falhou
 else: 
     deu certo

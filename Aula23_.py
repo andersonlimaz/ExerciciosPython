@@ -7,7 +7,7 @@
 # else:
 #     print(f'O resultado é {r}')
 # finally:
-#     print('Volte sempre, Muito Obrigado!')
+#     print('Volte sempre, Muito Obrigado!')  
 try:
     a = int(input('Numerador: '))
     b = int(input('Denominador: '))
